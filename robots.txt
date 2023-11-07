@@ -1,4 +1,4 @@
 User-agent: *
 Disallow:
 
-Sitemap: https://huntgreen.github.io//sitemap.xml
+Sitemap: https://huntgreen.github.io/sitemap.xml
