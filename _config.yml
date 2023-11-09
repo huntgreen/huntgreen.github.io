@@ -233,7 +233,7 @@ defaults:
   - scope:
       path: "assets"
     values:
-      sitemap: false
+      sitemap: true
 
 sass:
   style: compressed
@@ -258,9 +258,9 @@ jekyll-archives:
     tag: archive-tag
     category: archive-category
   permalinks:
-    year: # '/blog/:year/'
-    tag: # '/blog/tag/:name/'
-    category: # '/blog/category/:name/'
+    year:  '/blog/:year/'
+    tag:  '/blog/tag/:name/'
+    category:  '/blog/category/:name/'
 
 display_tags: ['formatting', 'images', 'links', 'math', 'code'] # these tags will be displayed on the front page of your blog
 display_categories: ['blockquotes'] # these categories will be displayed on the front page of your blog
